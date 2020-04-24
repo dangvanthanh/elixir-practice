@@ -230,3 +230,21 @@ iex> Math.sum(5, 7)
 12
 ```
 
+## Generating Elixir project
+
+You need to make use the `Mix` build tool that comes straight out the box. Mix allows you to do a number things include:
+
+- Create projects
+- Compile projects
+- Run tasks
+  + Testing
+  + Generate documentation
+- Management dependencies
+
+### Initialize project
+
+```
+$ mix new [project name]
+```
+
+
